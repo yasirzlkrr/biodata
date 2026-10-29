@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#dbeafe, #f3e8ff, #e0f2fe);
+    margin: 0;
+    padding: 30px 15px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #00000020;
+}
+
+h2 {
+    text-align: center;
+    color: #1e3a5f;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.foto-profil {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.foto-profil img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #bfdbfe;
+}
+
+.tabel-utama {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.tabel-utama td {
+    border: 1px solid #cbd5e1;
+    padding: 12px;
+    vertical-align: top;
+}
+
+.label {
+    width: 30%;
+    font-weight: bold;
+    color: #1e3a5f;
+    background-color: #dbeafe;
+}
+
+.tabel-pendidikan {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel-pendidikan td {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+}
+
+.jenis {
+    font-weight: bold;
+    font-style: italic;
+    background-color: #eff6ff;
+}
+
+ul {
+    margin-top: 5px;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 15px 8px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .tabel-utama td {
+        padding: 8px;
+    }
+
+    .tabel-pendidikan td {
+        padding: 6px;
+        font-size: 13px;
+        overflow-wrap: anywhere;
+    }
+}
